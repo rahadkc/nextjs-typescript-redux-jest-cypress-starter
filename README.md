@@ -1,6 +1,4 @@
-# Event Manager
 
-Event Manager is a web application for managing events. This application is built using Next.js and React, making it a flexible and efficient tool for handling events. It supports various features like calendar views, recurring events, and more.
 
 ## Table of Contents
 

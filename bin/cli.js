@@ -2,7 +2,7 @@
 
 const { execSync } = require('child_process')
 
-const repoName = process.argv(2)
+const repoName = process.argv[2]
 const gitCheckoutCommand = `git clone --depth 1 https://github.com/rahadkc/nextjs-redux-starter ${repoName}`
 const installDepsCommand = `cd ${repoName} && npm install`
 

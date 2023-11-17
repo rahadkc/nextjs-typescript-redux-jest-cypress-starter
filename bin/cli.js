@@ -23,16 +23,15 @@ function runCommandWithLoading(command, loadingMessage, colorCode) {
   }
 }
 
-console.log(colorizeText(`Cloning the repository ... ${repoName}`, '34')) // Blue color for cloning
 runCommandWithLoading(gitCheckoutCommand, 'Cloning the repository', '34')
 
-console.log(colorizeText(`Installing dependencies for ${repoName}`, '36')) // Cyan color for installing
 runCommandWithLoading(installDepsCommand, 'Installing dependencies', '36')
 
 console.log(colorizeText('Congratulations! You are ready to go.', '32')) // Green color for success
 console.log('To start the project, run the following commands:')
-console.log(`cd ${repoName} && npm run dev`)
-console.log(colorizeText('Your project will be available at http://localhost:3050', '33')) // Yellow color for info
+console.log(colorizeText(`cd ${repoName} && npm run dev`, '35'))
+console.log(colorizeText('Your project will be available at', '33')) // Yellow color for info
+console.log(colorizeText('http://localhost:3050', '33')) // Yellow color for info
 
 function exitProcess(code) {
   process.exit(code)

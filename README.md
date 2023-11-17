@@ -1,3 +1,6 @@
+# NextJs page router starter pack
+
+### ✨ Typescript 🌟 Redux-toolkit 🪄 Eslint 🪄 Prettier 🔥 SWR ✔️ Cypress ✔️ React Testing library 🚀 Zod 💰 DaisyUi 🎁 Docker 👀 Husky 💀 Mongoose 
 
 
 ## Table of Contents
@@ -89,9 +92,8 @@ Add your mongoDB uri in env file.
 - [REDUX-TOOLKIT](https://redux-toolkit.js.org/) - State management
 - [Redux-hook-form](https://react-hook-form.com/) - Form control 
 - [ZOD](https://zod.dev/) - Zod is a TypeScript-first schema declaration and validation library.
-- [Recat Icons](https://react-icons.github.io/react-icons/) 
+- [React Icons](https://react-icons.github.io/react-icons/) 
 - [Date-fns](https://date-fns.org/) - Date utility
-- [React-big-calendar](https://github.com/jquense/react-big-calendar)
 - [DaisyUI](https://daisyui.com/) - Tailwind Css component library for default styling and theming
 - [React testing library](https://testing-library.com/) - For unit and integration test
 - Typescript

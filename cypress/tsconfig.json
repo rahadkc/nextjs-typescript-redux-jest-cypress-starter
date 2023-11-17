@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "moduleResolution": "Bundler",
+      "target": "ES2015",
+      "module": "es2015",
+      "lib": ["ESNext", "dom"],
+      "types": ["cypress", "node"]
+    },
+    "ts-node": {
+        "compilerOptions": {
+          "module": "es2015",
+          "moduleResolution": "Node"
+        }
+      },
+    "include": ["**/*.ts"]
+}

@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      MONGODB_URI: ${MONGODB_URI}
+    env_file:
+      - .env
+    container_name: event-app
+    ports:
+      - "3000:3000"      
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+      - /usr/src/app/.next
+    restart: always
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"

@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fefefe;
+  --background-white: #fff;
+  --border-color: #eeeaea;
+  --accent-color: #07617D;
+}
+
+body {
+  background: var(--background)
+}
+
+
+
+.auto-column-grid {
+  display: grid;
+  grid-gap: 15px;
+  grid-auto-flow: column dense;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+
+  .modal-box {
+    max-width: 37rem!important;
+  }
+}
+
+.modal-box {
+  padding: 1.95rem
+}
+
+.closeBtn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 10px;
+}

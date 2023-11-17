@@ -1,6 +1,6 @@
 {
   "name": "nextjs-typescript-redux-starter",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "bin": "./bin/cli.js",
   "scripts": {
     "dev": "next dev -p 3050",

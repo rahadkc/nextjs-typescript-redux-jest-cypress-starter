@@ -12,11 +12,24 @@
 - [Tools](#tools)
 - [Scripts](#scripts)
 
+### Install starter package by npx
+
+```bash
+npx nextjs-typescript-redux-starter <project-name>
+```
+example:
+```bash
+npx nextjs-typescript-redux-starter my-next-project
+```
+
+
 ## Getting Started
 
 ### Docker
 Make sure you have installed Docker in your machine. \
-With docker you just have to run one command from your terminal to run project.\
+With docker you just have to run one command from your terminal to run project. `docker-compose up --build
+` 
+
 To persist data to database have to set environment variable in .env file. See .env.example
 
 
@@ -144,3 +157,7 @@ Add your mongoDB uri in env file.
  #or
  npm run analyze:browser
  ```
+
+## Show support
+
+Give a ⭐️ if this project helped you!

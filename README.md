@@ -160,4 +160,4 @@ Add your mongoDB uri in env file.
 
 ## Show support
 
-Give a ⭐️ if this project helped you!
+Give a ⭐️ if you like this project!

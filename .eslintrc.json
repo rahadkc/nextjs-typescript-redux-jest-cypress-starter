@@ -5,9 +5,20 @@
     "jest": true,
     "es6": true
   },
-  "extends": ["eslint:recommended", "next", "prettier"],
-  "plugins": ["eslint-plugin-prettier", "unused-imports"],
-  "ignorePatterns": ["node_modules/", ".next/"],
+  "extends": [
+    "eslint:recommended",
+    "next",
+    "prettier",
+    "plugin:storybook/recommended"
+  ],
+  "plugins": [
+    "eslint-plugin-prettier",
+    "unused-imports"
+  ],
+  "ignorePatterns": [
+    "node_modules/",
+    ".next/"
+  ],
   "settings": {
     "react": {
       "pragma": "React",
@@ -34,7 +45,10 @@
         "flatTernaryExpressions": true
       }
     ],
-    "linebreak-style": ["error", "unix"],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
     "quotes": [
       "error",
       "single",
@@ -43,7 +57,10 @@
         "allowTemplateLiterals": false
       }
     ],
-    "semi": ["error", "never"],
+    "semi": [
+      "error",
+      "never"
+    ],
     "react/prop-types": 0,
     "react/no-unknown-property": 0,
     "no-mixed-spaces-and-tabs": 0,

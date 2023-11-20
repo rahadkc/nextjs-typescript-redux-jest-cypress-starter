@@ -18,8 +18,6 @@ describe('Navigation', () => {
   })
 })
 
-
-
 // // Cypress E2E Test
 // describe('Navigation', () => {
 //   it('should navigate to the about page', () => {

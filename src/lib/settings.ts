@@ -1,4 +1,4 @@
-import { SIZE_TYPE, VARIANT_TYPE } from './constants'
+import { SIZE_TYPE, VARIANT_TYPE } from './types/enums'
 
 // example uses
 const SETTINGS = {

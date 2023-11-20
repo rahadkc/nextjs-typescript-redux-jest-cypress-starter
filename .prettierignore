@@ -1,5 +1,9 @@
 *.css
 *.svg
 *.json
+*.html
+*.mdx
+*.yml
+
 
 README.md

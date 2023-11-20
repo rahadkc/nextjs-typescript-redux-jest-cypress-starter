@@ -1,6 +1,5 @@
-import type { Meta, StoryObj } from '@storybook/react';
-import PageTitle from '../components/pageTitle';
-
+import type { Meta, StoryObj } from '@storybook/react'
+import PageTitle from '../components/pageTitle'
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 const meta = {
@@ -13,14 +12,14 @@ const meta = {
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
   tags: ['autodocs'],
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
-} satisfies Meta<typeof PageTitle>;
+} satisfies Meta<typeof PageTitle>
 
-export default meta;
-type Story = StoryObj<typeof meta>;
+export default meta
+type Story = StoryObj<typeof meta>
 
 export const Title: Story = {
-    args: {
-        title: "Page Title",
-        color: 'black'
-    }
+  args: {
+    title: 'Page Title',
+    color: 'black',
+  },
 }

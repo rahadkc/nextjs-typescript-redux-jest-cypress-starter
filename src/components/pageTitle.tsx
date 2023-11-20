@@ -1,5 +1,3 @@
-import { COLOR_TYPE } from "../lib/constants"
-
 type PageTitleType = {
   title: string
   color?: string

@@ -5,7 +5,7 @@ const config: Config = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-    "./src/stories/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/stories/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
@@ -39,8 +39,6 @@ const config: Config = {
     prefix: '', // prefix for daisyUI classnames (components, modifiers and responsive class names. Not colors)
     logs: true, // Shows info abo
   },
-  safelist: [
-    'text-black',
-  ]
+  safelist: ['text-black'],
 }
 export default config

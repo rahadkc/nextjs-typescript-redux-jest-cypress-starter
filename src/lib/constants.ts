@@ -40,6 +40,8 @@ export enum COLOR_TYPE {
   SUCCESS = 'success',
   WARNING = 'warning',
   STRING = 'string',
+  DARK = 'black',
+  LIGHT = 'white'
 }
 
 export enum INPUT_TYPE {

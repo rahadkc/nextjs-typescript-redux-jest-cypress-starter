@@ -1,6 +1,6 @@
 //@ts-nocheck
 import { NextApiRequest, NextApiResponse } from 'next'
-import UserModel, { IEvent } from '../models/eventModel'
+import UserModel, { IEvent } from '../models/userModel'
 import mongoose from 'mongoose'
 
 export const getUser = async (req: NextApiRequest, res: NextApiResponse) => {

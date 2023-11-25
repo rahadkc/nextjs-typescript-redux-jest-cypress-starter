@@ -8,10 +8,10 @@
   --border-color: #eeeaea;
   --accent-color: #07617D;
 }
-
+/* 
 body {
   background: var(--background)
-}
+} */
 
 .auto-column-grid {
   display: grid;

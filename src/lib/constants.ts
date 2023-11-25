@@ -10,3 +10,8 @@ export const SIZES = {
   MD: 'MD',
   LG: 'MD',
 } as const
+
+export const THEME = {
+  LIGHT: 'light',
+  DARK: 'dark',
+} as const
